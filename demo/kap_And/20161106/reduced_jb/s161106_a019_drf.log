@@ -1,0 +1,158 @@
+Data Reduction Pipeline
+Run On Fri Sep 27 11:36:41 2019
+Logical Unit Number =          101
+
+11:36:41  Reducing data set: s161106_a019
+11:36:41     Running Module: Subtract Frame
+11:36:41     Received data set: s161106_a019
+11:36:44     subtradark_000 succesfully completed after 3.0772121 seconds.
+11:36:44     Module completed: Subtract Frame
+11:36:44     Running Module: Adjust Channel Levels
+11:36:44     Received data set: s161106_a019
+11:36:44     Adjust channels not performed: data is from H2RG detector.
+11:36:44     adjchan_000 succesfully completed after 0.27593422 seconds.
+11:36:44     Module completed: Adjust Channel Levels
+11:36:44     Running Module: Remove Crosstalk
+11:36:44     Received data set: s161106_a019
+11:36:44     Remove crosstalk not performed: data is from H2RG detector.
+11:36:44     rmcrosstalk_000 succesfully completed after 0.00057101250 seconds.
+11:36:44     Module completed: Remove Crosstalk
+11:36:44     Running Module: Glitch Identification
+11:36:44     Received data set: s161106_a019
+11:36:44     Glitch ID not performed: data is from H2RG detector.
+11:36:44     glitchid_000 succesfully completed after 0.00056409836 seconds.
+11:36:44     Module completed: Glitch Identification
+11:36:44     Running Module: Clean Cosmic Rays
+11:36:44     Received data set: s161106_a019
+11:36:44     Clean Cosmic Ray not performed: data is from H2RG detector.
+11:36:44     Module completed: Clean Cosmic Rays
+11:36:44     Running Module: Extract Spectra
+11:36:44     Module: spatrectif_000 - Received data set: s161106_a019
+11:38:37        MATH WARNING IN MODULE 'Extract Spectra': Floating point operand error
+11:38:37        Unknown error IN MODULE 'Extract Spectra': Floating point operand error
+11:38:37     Module completed: Extract Spectra
+11:38:37     Running Module: Assemble Data Cube
+11:38:37     Received data set: s161106_a019
+11:38:42     assembcube_000 succesfully completed after 5.5585699 seconds.
+11:38:42     Module completed: Assemble Data Cube
+11:38:42     Running Module: Correct Dispersion
+11:38:42     Received data set: s161106_a019
+11:38:43     INFO (corrtilt_000): Working on set 0 now.
+11:38:43     INFO (corrtilt_000): Found CDELT1 of 0.000250000 microns.
+11:38:43     INFO (corrtilt_000): Found initial wavelength of 1.96500 microns.
+11:38:43     INFO (corrtilt_000): Found telescope elevation of 55.4058 degrees.
+11:38:43     INFO (corrtilt_000): Found parallactic angle of -125.711 degrees.
+11:38:43     INFO (corrtilt_000): Found position angle of the spectrograph of -36.7000 degrees.
+11:38:43     INFO (corrtilt_000): Found scale of the spectrograph 0.0200000 as.
+11:38:43     INFO (corrtilt_000): Size of unshifted cube 64 19
+11:38:43     INFO (corrtilt_000): Size of shifted cube 64 19
+11:38:43     INFO (corrtilt_000): Coord. 0,0 of 0th slice shifted to 0,0
+11:38:43     INFO (corrtilt_000): Working on cube 0 now.
+11:38:43     INFO (corrtilt_000): 0% of set 0 shifted.
+11:38:43     INFO (corrtilt_000): 9% of set 0 shifted.
+11:38:43     INFO (corrtilt_000): 19% of set 0 shifted.
+11:38:43     INFO (corrtilt_000): 29% of set 0 shifted.
+11:38:43     INFO (corrtilt_000): 39% of set 0 shifted.
+11:38:44     INFO (corrtilt_000): 49% of set 0 shifted.
+11:38:44     INFO (corrtilt_000): 59% of set 0 shifted.
+11:38:44     INFO (corrtilt_000): 69% of set 0 shifted.
+11:38:44     INFO (corrtilt_000): 79% of set 0 shifted.
+11:38:44     INFO (corrtilt_000): 89% of set 0 shifted.
+11:38:44     INFO (corrtilt_000): 99% of set 0 shifted.
+11:38:44     INFO (corrtilt_000): Working on set 1 now.
+11:38:44     INFO (corrtilt_000): Found CDELT1 of 0.000250000 microns.
+11:38:44     INFO (corrtilt_000): Found initial wavelength of 1.96500 microns.
+11:38:44     INFO (corrtilt_000): Found telescope elevation of 57.4478 degrees.
+11:38:44     INFO (corrtilt_000): Found parallactic angle of -130.677 degrees.
+11:38:44     INFO (corrtilt_000): Found position angle of the spectrograph of -36.7000 degrees.
+11:38:44     INFO (corrtilt_000): Found scale of the spectrograph 0.0200000 as.
+11:38:44     INFO (corrtilt_000): Size of unshifted cube 64 19
+11:38:44     INFO (corrtilt_000): Size of shifted cube 64 19
+11:38:44     INFO (corrtilt_000): Coord. 0,0 of 0th slice shifted to 0,0
+11:38:44     INFO (corrtilt_000): Working on cube 1 now.
+11:38:44     INFO (corrtilt_000): 0% of set 1 shifted.
+11:38:44     INFO (corrtilt_000): 9% of set 1 shifted.
+11:38:44     INFO (corrtilt_000): 19% of set 1 shifted.
+11:38:45     INFO (corrtilt_000): 29% of set 1 shifted.
+11:38:45     INFO (corrtilt_000): 39% of set 1 shifted.
+11:38:45     INFO (corrtilt_000): 49% of set 1 shifted.
+11:38:45     INFO (corrtilt_000): 59% of set 1 shifted.
+11:38:45     INFO (corrtilt_000): 69% of set 1 shifted.
+11:38:45     INFO (corrtilt_000): 79% of set 1 shifted.
+11:38:45     INFO (corrtilt_000): 89% of set 1 shifted.
+11:38:45     INFO (corrtilt_000): 99% of set 1 shifted.
+11:38:46     INFO (corrtilt_000): Working on set 2 now.
+11:38:46     INFO (corrtilt_000): Found CDELT1 of 0.000250000 microns.
+11:38:46     INFO (corrtilt_000): Found initial wavelength of 1.96500 microns.
+11:38:46     INFO (corrtilt_000): Found telescope elevation of 59.3613 degrees.
+11:38:46     INFO (corrtilt_000): Found parallactic angle of -136.205 degrees.
+11:38:46     INFO (corrtilt_000): Found position angle of the spectrograph of -36.7000 degrees.
+11:38:46     INFO (corrtilt_000): Found scale of the spectrograph 0.0200000 as.
+11:38:46     INFO (corrtilt_000): Size of unshifted cube 64 19
+11:38:46     INFO (corrtilt_000): Size of shifted cube 64 19
+11:38:46     INFO (corrtilt_000): Coord. 0,0 of 0th slice shifted to 0,0
+11:38:46     INFO (corrtilt_000): Working on cube 2 now.
+11:38:46     INFO (corrtilt_000): 0% of set 2 shifted.
+11:38:46     INFO (corrtilt_000): 9% of set 2 shifted.
+11:38:46     INFO (corrtilt_000): 19% of set 2 shifted.
+11:38:46     INFO (corrtilt_000): 29% of set 2 shifted.
+11:38:46     INFO (corrtilt_000): 39% of set 2 shifted.
+11:38:46     INFO (corrtilt_000): 49% of set 2 shifted.
+11:38:46     INFO (corrtilt_000): 59% of set 2 shifted.
+11:38:46     INFO (corrtilt_000): 69% of set 2 shifted.
+11:38:47     INFO (corrtilt_000): 79% of set 2 shifted.
+11:38:47     INFO (corrtilt_000): 89% of set 2 shifted.
+11:38:47     INFO (corrtilt_000): 99% of set 2 shifted.
+11:38:47     INFO (corrtilt_000): Working on set 3 now.
+11:38:47     INFO (corrtilt_000): Found CDELT1 of 0.000250000 microns.
+11:38:47     INFO (corrtilt_000): Found initial wavelength of 1.96500 microns.
+11:38:47     INFO (corrtilt_000): Found telescope elevation of 61.0726 degrees.
+11:38:47     INFO (corrtilt_000): Found parallactic angle of -142.232 degrees.
+11:38:47     INFO (corrtilt_000): Found position angle of the spectrograph of -36.7000 degrees.
+11:38:47     INFO (corrtilt_000): Found scale of the spectrograph 0.0200000 as.
+11:38:47     INFO (corrtilt_000): Size of unshifted cube 64 19
+11:38:47     INFO (corrtilt_000): Size of shifted cube 64 19
+11:38:47     INFO (corrtilt_000): Coord. 0,0 of 0th slice shifted to 0,0
+11:38:47     INFO (corrtilt_000): Working on cube 3 now.
+11:38:47     INFO (corrtilt_000): 0% of set 3 shifted.
+11:38:47     INFO (corrtilt_000): 9% of set 3 shifted.
+11:38:47     INFO (corrtilt_000): 19% of set 3 shifted.
+11:38:47     INFO (corrtilt_000): 29% of set 3 shifted.
+11:38:47     INFO (corrtilt_000): 39% of set 3 shifted.
+11:38:47     INFO (corrtilt_000): 49% of set 3 shifted.
+11:38:48     INFO (corrtilt_000): 59% of set 3 shifted.
+11:38:48     INFO (corrtilt_000): 69% of set 3 shifted.
+11:38:48     INFO (corrtilt_000): 79% of set 3 shifted.
+11:38:48     INFO (corrtilt_000): 89% of set 3 shifted.
+11:38:48     INFO (corrtilt_000): 99% of set 3 shifted.
+11:38:48     INFO (corrtilt_000): Working on set 4 now.
+11:38:48     INFO (corrtilt_000): Found CDELT1 of 0.000250000 microns.
+11:38:48     INFO (corrtilt_000): Found initial wavelength of 1.96500 microns.
+11:38:48     INFO (corrtilt_000): Found telescope elevation of 62.4272 degrees.
+11:38:48     INFO (corrtilt_000): Found parallactic angle of -148.184 degrees.
+11:38:48     INFO (corrtilt_000): Found position angle of the spectrograph of -36.7000 degrees.
+11:38:48     INFO (corrtilt_000): Found scale of the spectrograph 0.0200000 as.
+11:38:48     INFO (corrtilt_000): Size of unshifted cube 64 19
+11:38:48     INFO (corrtilt_000): Size of shifted cube 64 19
+11:38:48     INFO (corrtilt_000): Coord. 0,0 of 0th slice shifted to 0,0
+11:38:48     INFO (corrtilt_000): Working on cube 4 now.
+11:38:48     INFO (corrtilt_000): 0% of set 4 shifted.
+11:38:48     INFO (corrtilt_000): 9% of set 4 shifted.
+11:38:48     INFO (corrtilt_000): 19% of set 4 shifted.
+11:38:48     INFO (corrtilt_000): 29% of set 4 shifted.
+11:38:49     INFO (corrtilt_000): 39% of set 4 shifted.
+11:38:49     INFO (corrtilt_000): 49% of set 4 shifted.
+11:38:49     INFO (corrtilt_000): 59% of set 4 shifted.
+11:38:49     INFO (corrtilt_000): 69% of set 4 shifted.
+11:38:49     INFO (corrtilt_000): 79% of set 4 shifted.
+11:38:49     INFO (corrtilt_000): 89% of set 4 shifted.
+11:38:49     INFO (corrtilt_000): 99% of set 4 shifted.
+11:38:49     corrtilt_000 succesfully completed after 6.8439069 seconds.
+11:38:49     Module completed: Correct Dispersion
+11:38:49     Running Module: Save DataSet Information
+11:38:49     Received data set: s161106_a019
+11:38:49     WARNING (savedatset_000): Input intframe pointer contain NaNs or INFs or negative values in set 0.
+11:38:49     WARNING (savedatset_000): Input intframe pointer contain NaNs or INFs or negative values in set 3.
+11:38:50     savedatset_000 succesfully completed after 0.77363586 seconds.
+11:38:50     Module completed: Save DataSet Information
+11:38:50  Reduction successful: s161106_a019
