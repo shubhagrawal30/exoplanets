@@ -1,0 +1,69 @@
+Data Reduction Pipeline
+Run On Fri Apr  5 09:23:58 2019
+Logical Unit Number =          101
+
+09:23:58  Reducing data set: s161106_a024
+09:23:58     Running Module: Subtract Frame
+09:23:58     Received data set: s161106_a024
+09:23:59     subtradark_000 succesfully completed after 1.1240849 seconds.
+09:23:59     Module completed: Subtract Frame
+09:23:59     Running Module: Adjust Channel Levels
+09:23:59     Received data set: s161106_a024
+09:23:59     Adjust channels not performed: data is from H2RG detector.
+09:23:59     adjchan_000 succesfully completed after 0.051043034 seconds.
+09:23:59     Module completed: Adjust Channel Levels
+09:23:59     Running Module: Remove Crosstalk
+09:23:59     Received data set: s161106_a024
+09:23:59     Remove crosstalk not performed: data is from H2RG detector.
+09:23:59     rmcrosstalk_000 succesfully completed after 0.00042510033 seconds.
+09:23:59     Module completed: Remove Crosstalk
+09:23:59     Running Module: Glitch Identification
+09:23:59     Received data set: s161106_a024
+09:23:59     Glitch ID not performed: data is from H2RG detector.
+09:23:59     glitchid_000 succesfully completed after 0.00047492981 seconds.
+09:23:59     Module completed: Glitch Identification
+09:23:59     Running Module: Clean Cosmic Rays
+09:23:59     Received data set: s161106_a024
+09:23:59     Clean Cosmic Ray not performed: data is from H2RG detector.
+09:23:59     Module completed: Clean Cosmic Rays
+09:23:59     Running Module: Extract Spectra
+09:23:59     Module: spatrectif_000 - Received data set: s161106_a024
+09:24:20        MATH WARNING IN MODULE 'Extract Spectra': Floating point operand error
+09:24:20        Unknown error IN MODULE 'Extract Spectra': Floating point operand error
+09:24:20     Module completed: Extract Spectra
+09:24:20     Running Module: Assemble Data Cube
+09:24:20     Received data set: s161106_a024
+09:24:21     assembcube_000 succesfully completed after 0.98067904 seconds.
+09:24:21     Module completed: Assemble Data Cube
+09:24:21     Running Module: Correct Dispersion
+09:24:21     Received data set: s161106_a024
+09:24:21     INFO (corrtilt_000): Working on set 0 now.
+09:24:21     INFO (corrtilt_000): Found CDELT1 of 0.000250000 microns.
+09:24:21     INFO (corrtilt_000): Found initial wavelength of 1.96500 microns.
+09:24:21     INFO (corrtilt_000): Found telescope elevation of 63.6842 degrees.
+09:24:21     INFO (corrtilt_000): Found parallactic angle of -155.520 degrees.
+09:24:21     INFO (corrtilt_000): Found position angle of the spectrograph of -36.7000 degrees.
+09:24:21     INFO (corrtilt_000): Found scale of the spectrograph 0.0200000 as.
+09:24:21     INFO (corrtilt_000): Size of unshifted cube 64 19
+09:24:21     INFO (corrtilt_000): Size of shifted cube 64 19
+09:24:21     INFO (corrtilt_000): Coord. 0,0 of 0th slice shifted to 0,0
+09:24:21     INFO (corrtilt_000): Working on cube 0 now.
+09:24:21     INFO (corrtilt_000): 0% of set 0 shifted.
+09:24:21     INFO (corrtilt_000): 9% of set 0 shifted.
+09:24:21     INFO (corrtilt_000): 19% of set 0 shifted.
+09:24:21     INFO (corrtilt_000): 29% of set 0 shifted.
+09:24:21     INFO (corrtilt_000): 39% of set 0 shifted.
+09:24:21     INFO (corrtilt_000): 49% of set 0 shifted.
+09:24:22     INFO (corrtilt_000): 59% of set 0 shifted.
+09:24:22     INFO (corrtilt_000): 69% of set 0 shifted.
+09:24:22     INFO (corrtilt_000): 79% of set 0 shifted.
+09:24:22     INFO (corrtilt_000): 89% of set 0 shifted.
+09:24:22     INFO (corrtilt_000): 99% of set 0 shifted.
+09:24:22     corrtilt_000 succesfully completed after 1.1643789 seconds.
+09:24:22     Module completed: Correct Dispersion
+09:24:22     Running Module: Save DataSet Information
+09:24:22     Received data set: s161106_a024
+09:24:22     WARNING (savedatset_000): Input intframe pointer contain NaNs or INFs or negative values in set 0.
+09:24:22     savedatset_000 succesfully completed after 0.11770296 seconds.
+09:24:22     Module completed: Save DataSet Information
+09:24:22  Reduction successful: s161106_a024
