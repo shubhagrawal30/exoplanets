@@ -1,16 +1,18 @@
 __author__ = 'jruffio'
 
 import matplotlib.pyplot as plt
-import astropy.io.fits as pyfits
+import astropy.io.fits as pyfits # FITS file formal
 import numpy as np
 from glob import glob
+# get all filenames that match a pattern, just like terminal "*.png" 
 import os
 from astropy import constants as const
 import multiprocessing as mp
 from PyAstronomy import pyasl
-from scipy.interpolate import interp1d
+# bunch of astro related packages
+from scipy.interpolate import interp1d # linear interpolation
 from astropy import units as u
-import scipy.io as scio
+import scipy.io as scio # read IDL files
 from copy import copy
 from scipy.optimize import minimize
 import warnings
@@ -29,19 +31,25 @@ if __name__ == "__main__":
         import mkl
         mkl.set_num_threads(1)
     except:
-        pass
-    warnings.filterwarnings('ignore')
+        pass 
+        # TODO: not sure what this block does, 
+        # is it to put all other operations in one thread, so that 
+        # the operations we care about are able to multithread
+    warnings.filterwarnings('ignore') # all warnings are ignored
 
     main_dir = "./"
 
 
-    R=4000
+    R=4000 # TODO: what is this?
     numthreads=16
 
     science_dir = os.path.join(main_dir,"kap_And/20161106/reduced_jb/")
     filelist = glob(os.path.join(science_dir,"*_020.fits"))
     tel_stand_dir = os.path.join(main_dir,"kap_And/20161106/reduced_telluric_jb/HIP_111538/")
-    tel_filelist = glob(os.path.join(tel_stand_dir,"*_020.fits"))
+    tel_filelist = glob(os.path.join(tel_stand_dir,"*_020.fits")) 
+    # os.path.join joins the directory name and file name intelligently
+    # TODO: what are these files?
+    # TODO: just getting a list of all the files?
 
     filelist.sort()
     tel_filelist.sort()
